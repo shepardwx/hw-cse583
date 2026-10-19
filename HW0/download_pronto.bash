@@ -1,7 +1,6 @@
 mkdir pronto
 cd pronto
 touch README.txt
-nano README.txt
 mkdir data
 curl 'https://s3.amazonaws.com/pronto-data/open_data_year_one.zip' -o data/open_data_year_one.zip
 cd data
